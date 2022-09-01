@@ -1,2 +1,15 @@
 # Kickstarter-Analysis
-Analyzing the Outcomes, launch date and goal
+Between data gathered from “launch date” and “goals” columns we could make a educated analyzation on the outcomes and visualize both outcomes.
+## Challenges
+Some challenges faced with this project were the setting up of pivot tables, having to put the right filters in the right place for it to make sense is one of them, it didn’t take too long but having to step away and coming back helps with a lot of the miner nuances. Also learning the chart filters when making a chart and customizing the way it looks, on the percentages I couldn’t get them to go above 100% but the example went to 120%. The only formula I had a little trouble on was countifs, but more specifically adding another criteria, found out later I used “countif” instead of “countifs.”
+## Outcomes Based on Goals
+There are three main inferences we can make based on the made in the rows and columns, one, the number of successes is the highest then failed and canceled with the least. The percentage shows the same outcome and by that the graph is shown in percentage because its easier data to read. The “percentage successful” shows a declining line graph and seeing the higher it goes the less the percentage is. Meaning that having a higher goal isn’t the best because you would have a lower chance of succeeding compared to a lower goal. So having a lower goal actually gives you a higher percentage of succeeding which is what we want. On the beginning of x-axis the less than 1000 shows the highest percentage above 70%. Whereas at 30k it’s at 40% and 50k its at 20%. And supporting the trend, the “percentage failed” shows that having a higher goal made more projects fail. Based on the successfulness and failed outcomes both intersect around the 45%/15k mark but fall off much earlier at the same time, around the 5k-9k mark which shows to be the true best performance of both lines in the graph.
+![Picture1](https://user-images.githubusercontent.com/110315163/187866695-4f0f18e0-5108-412f-8af1-b6e8c53832b1.png)
+## Outcomes by Launch Date
+Both the “failed” and “canceled” lines are linear where as the “success” is the tell-tail of this graph, the overall spike is in May and June and falls off on boths sides in March and September, meaning having a launch date in those days effect it more than the failed launches throughout the year.
+![Picture2](https://user-images.githubusercontent.com/110315163/187866837-7da94a90-94e9-484b-ab38-a41d277e990a.png)
+
+## Similarities and Differences
+Some things that are similar in both graphs is that both are easily readable but the “launch date” is skewed symmetrical whereas the goals is mostly linear when looked at it all together. Another difference is breaking the graphs down, the “goals” we have to break down one line at a time where the “launch date” is a time line and we can picture a busy June summer play skewed graph.
+## Conclusion
+A couple thoughts can be understood from this assignment. By having all the information in graphs, it makings analyzing trends easier then comparing numbers in rows and columns. And both graphs represent outcomes in a different way but combined tell how time and money work hand in hand. Having a June launch date with a 1k goal is much achievable than a December launch date with a 25k goal. 
